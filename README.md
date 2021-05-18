@@ -16,5 +16,5 @@ Tools used in this project:
   - Armin Khojir (UI and Character designer)
   - Moahmmad Farahi (Modeling and Texturing)
   
-  Tutorial (Persian):
+  You can read the full tutorial of making this game here (Persian):
   https://vitringram.com/article/6
