@@ -1,0 +1,679 @@
+fileFormatVersion: 2
+guid: cb1fa9d734d84414fb8a4c2943062d74
+timeCreated: 1489066223
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: anim_chest01
+    100002: anim_head01
+    100004: anim_l_elbow01
+    100006: anim_l_foot01
+    100008: anim_l_hand01
+    100010: anim_l_knee01
+    100012: anim_pelvis01
+    100014: anim_r_elbow01
+    100016: anim_r_foot01
+    100018: anim_r_hand01
+    100020: anim_r_knee01
+    100022: be_headEnd01
+    100024: be_l_toeEnd01
+    100026: be_l_toeEnd01 1
+    100028: be_r_toeEnd01
+    100030: be_r_toeEnd01 1
+    100032: blendShapes01
+    100034: bn_chest01
+    100036: bn_head01
+    100038: bn_l_ankle01
+    100040: bn_l_arm01
+    100042: bn_l_elbow01
+    100044: bn_l_hand01
+    100046: bn_l_knee01
+    100048: bn_l_thigh01
+    100050: bn_pelvis01
+    100052: bn_r_ankle01
+    100054: bn_r_arm01
+    100056: bn_r_elbow01
+    100058: bn_r_hand01
+    100060: bn_r_knee01
+    100062: bn_r_thigh01
+    100064: controls01
+    100066: extraNodes01
+    100068: //RootNode
+    100070: globalMove01
+    100072: iks01
+    100074: joints01
+    100076: model01
+    100078: polySurface10
+    100080: polySurface11
+    100082: polySurface12
+    100084: polySurface13
+    100086: polySurface14
+    100088: polySurface15
+    100090: polySurface16
+    100092: polySurface17
+    100094: polySurface20
+    100096: polySurface21
+    100098: polySurface22
+    100100: polySurface23
+    100102: polySurface25
+    100104: polySurface26
+    100106: polySurface27
+    100108: polySurface28
+    100110: polySurface9
+    100112: rp_l_foot01
+    100114: rp_l_hand01
+    100116: rp_r_foot01
+    100118: rp_r_hand01
+    400000: anim_chest01
+    400002: anim_head01
+    400004: anim_l_elbow01
+    400006: anim_l_foot01
+    400008: anim_l_hand01
+    400010: anim_l_knee01
+    400012: anim_pelvis01
+    400014: anim_r_elbow01
+    400016: anim_r_foot01
+    400018: anim_r_hand01
+    400020: anim_r_knee01
+    400022: be_headEnd01
+    400024: be_l_toeEnd01
+    400026: be_l_toeEnd01 1
+    400028: be_r_toeEnd01
+    400030: be_r_toeEnd01 1
+    400032: blendShapes01
+    400034: bn_chest01
+    400036: bn_head01
+    400038: bn_l_ankle01
+    400040: bn_l_arm01
+    400042: bn_l_elbow01
+    400044: bn_l_hand01
+    400046: bn_l_knee01
+    400048: bn_l_thigh01
+    400050: bn_pelvis01
+    400052: bn_r_ankle01
+    400054: bn_r_arm01
+    400056: bn_r_elbow01
+    400058: bn_r_hand01
+    400060: bn_r_knee01
+    400062: bn_r_thigh01
+    400064: controls01
+    400066: extraNodes01
+    400068: //RootNode
+    400070: globalMove01
+    400072: iks01
+    400074: joints01
+    400076: model01
+    400078: polySurface10
+    400080: polySurface11
+    400082: polySurface12
+    400084: polySurface13
+    400086: polySurface14
+    400088: polySurface15
+    400090: polySurface16
+    400092: polySurface17
+    400094: polySurface20
+    400096: polySurface21
+    400098: polySurface22
+    400100: polySurface23
+    400102: polySurface25
+    400104: polySurface26
+    400106: polySurface27
+    400108: polySurface28
+    400110: polySurface9
+    400112: rp_l_foot01
+    400114: rp_l_hand01
+    400116: rp_r_foot01
+    400118: rp_r_hand01
+    4300000: polySurface12
+    4300002: polySurface11
+    4300004: polySurface10
+    4300006: polySurface9
+    4300008: polySurface23
+    4300010: polySurface22
+    4300012: polySurface21
+    4300014: polySurface20
+    4300016: polySurface25
+    4300018: polySurface15
+    4300020: polySurface14
+    4300022: polySurface13
+    4300024: polySurface17
+    4300026: polySurface16
+    4300028: polySurface26
+    4300030: polySurface27
+    4300032: polySurface28
+    7400000: Glass_Run
+    7400002: Glass_Death
+    7400004: Glass_Collect
+    9500000: //RootNode
+    13700000: polySurface10
+    13700002: polySurface11
+    13700004: polySurface12
+    13700006: polySurface13
+    13700008: polySurface14
+    13700010: polySurface15
+    13700012: polySurface16
+    13700014: polySurface17
+    13700016: polySurface20
+    13700018: polySurface21
+    13700020: polySurface22
+    13700022: polySurface23
+    13700024: polySurface25
+    13700026: polySurface26
+    13700028: polySurface27
+    13700030: polySurface28
+    13700032: polySurface9
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 1
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Glass_Run
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: blendShapes01
+        weight: 1
+      - path: extraNodes01
+        weight: 1
+      - path: globalMove01
+        weight: 1
+      - path: globalMove01/controls01
+        weight: 1
+      - path: globalMove01/controls01/anim_l_elbow01
+        weight: 1
+      - path: globalMove01/controls01/anim_l_foot01
+        weight: 1
+      - path: globalMove01/controls01/anim_l_hand01
+        weight: 1
+      - path: globalMove01/controls01/anim_l_knee01
+        weight: 1
+      - path: globalMove01/controls01/anim_pelvis01
+        weight: 1
+      - path: globalMove01/controls01/anim_pelvis01/anim_chest01
+        weight: 1
+      - path: globalMove01/controls01/anim_pelvis01/anim_chest01/anim_head01
+        weight: 1
+      - path: globalMove01/controls01/anim_r_elbow01
+        weight: 1
+      - path: globalMove01/controls01/anim_r_foot01
+        weight: 1
+      - path: globalMove01/controls01/anim_r_hand01
+        weight: 1
+      - path: globalMove01/controls01/anim_r_knee01
+        weight: 1
+      - path: globalMove01/iks01
+        weight: 1
+      - path: globalMove01/iks01/rp_l_foot01
+        weight: 1
+      - path: globalMove01/iks01/rp_l_hand01
+        weight: 1
+      - path: globalMove01/iks01/rp_r_foot01
+        weight: 1
+      - path: globalMove01/iks01/rp_r_hand01
+        weight: 1
+      - path: globalMove01/joints01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_head01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_head01/be_headEnd01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_l_arm01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_l_arm01/bn_l_elbow01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_l_arm01/bn_l_elbow01/bn_l_hand01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_l_arm01/bn_l_elbow01/bn_l_hand01/be_l_toeEnd01
+          1
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_r_arm01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_r_arm01/bn_r_elbow01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_r_arm01/bn_r_elbow01/bn_r_hand01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_r_arm01/bn_r_elbow01/bn_r_hand01/be_r_toeEnd01
+          1
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_l_thigh01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_l_thigh01/bn_l_knee01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_l_thigh01/bn_l_knee01/bn_l_ankle01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_l_thigh01/bn_l_knee01/bn_l_ankle01/be_l_toeEnd01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_r_thigh01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_r_thigh01/bn_r_knee01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_r_thigh01/bn_r_knee01/bn_r_ankle01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_r_thigh01/bn_r_knee01/bn_r_ankle01/be_r_toeEnd01
+        weight: 1
+      - path: model01
+        weight: 1
+      - path: model01/polySurface9
+        weight: 1
+      - path: model01/polySurface10
+        weight: 1
+      - path: model01/polySurface11
+        weight: 1
+      - path: model01/polySurface12
+        weight: 1
+      - path: model01/polySurface13
+        weight: 1
+      - path: model01/polySurface14
+        weight: 1
+      - path: model01/polySurface15
+        weight: 1
+      - path: model01/polySurface16
+        weight: 1
+      - path: model01/polySurface17
+        weight: 1
+      - path: model01/polySurface20
+        weight: 1
+      - path: model01/polySurface21
+        weight: 1
+      - path: model01/polySurface22
+        weight: 1
+      - path: model01/polySurface23
+        weight: 1
+      - path: model01/polySurface25
+        weight: 1
+      - path: model01/polySurface26
+        weight: 1
+      - path: model01/polySurface27
+        weight: 1
+      - path: model01/polySurface28
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Glass_Death
+      takeName: Take 001
+      firstFrame: 17
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: blendShapes01
+        weight: 1
+      - path: extraNodes01
+        weight: 1
+      - path: globalMove01
+        weight: 1
+      - path: globalMove01/controls01
+        weight: 1
+      - path: globalMove01/controls01/anim_l_elbow01
+        weight: 1
+      - path: globalMove01/controls01/anim_l_foot01
+        weight: 1
+      - path: globalMove01/controls01/anim_l_hand01
+        weight: 1
+      - path: globalMove01/controls01/anim_l_knee01
+        weight: 1
+      - path: globalMove01/controls01/anim_pelvis01
+        weight: 1
+      - path: globalMove01/controls01/anim_pelvis01/anim_chest01
+        weight: 1
+      - path: globalMove01/controls01/anim_pelvis01/anim_chest01/anim_head01
+        weight: 1
+      - path: globalMove01/controls01/anim_r_elbow01
+        weight: 1
+      - path: globalMove01/controls01/anim_r_foot01
+        weight: 1
+      - path: globalMove01/controls01/anim_r_hand01
+        weight: 1
+      - path: globalMove01/controls01/anim_r_knee01
+        weight: 1
+      - path: globalMove01/iks01
+        weight: 1
+      - path: globalMove01/iks01/rp_l_foot01
+        weight: 1
+      - path: globalMove01/iks01/rp_l_hand01
+        weight: 1
+      - path: globalMove01/iks01/rp_r_foot01
+        weight: 1
+      - path: globalMove01/iks01/rp_r_hand01
+        weight: 1
+      - path: globalMove01/joints01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_head01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_head01/be_headEnd01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_l_arm01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_l_arm01/bn_l_elbow01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_l_arm01/bn_l_elbow01/bn_l_hand01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_l_arm01/bn_l_elbow01/bn_l_hand01/be_l_toeEnd01
+          1
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_r_arm01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_r_arm01/bn_r_elbow01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_r_arm01/bn_r_elbow01/bn_r_hand01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_r_arm01/bn_r_elbow01/bn_r_hand01/be_r_toeEnd01
+          1
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_l_thigh01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_l_thigh01/bn_l_knee01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_l_thigh01/bn_l_knee01/bn_l_ankle01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_l_thigh01/bn_l_knee01/bn_l_ankle01/be_l_toeEnd01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_r_thigh01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_r_thigh01/bn_r_knee01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_r_thigh01/bn_r_knee01/bn_r_ankle01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_r_thigh01/bn_r_knee01/bn_r_ankle01/be_r_toeEnd01
+        weight: 1
+      - path: model01
+        weight: 1
+      - path: model01/polySurface9
+        weight: 1
+      - path: model01/polySurface10
+        weight: 1
+      - path: model01/polySurface11
+        weight: 1
+      - path: model01/polySurface12
+        weight: 1
+      - path: model01/polySurface13
+        weight: 1
+      - path: model01/polySurface14
+        weight: 1
+      - path: model01/polySurface15
+        weight: 1
+      - path: model01/polySurface16
+        weight: 1
+      - path: model01/polySurface17
+        weight: 1
+      - path: model01/polySurface20
+        weight: 1
+      - path: model01/polySurface21
+        weight: 1
+      - path: model01/polySurface22
+        weight: 1
+      - path: model01/polySurface23
+        weight: 1
+      - path: model01/polySurface25
+        weight: 1
+      - path: model01/polySurface26
+        weight: 1
+      - path: model01/polySurface27
+        weight: 1
+      - path: model01/polySurface28
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Glass_Collect
+      takeName: Take 001
+      firstFrame: 29
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: blendShapes01
+        weight: 1
+      - path: extraNodes01
+        weight: 1
+      - path: globalMove01
+        weight: 1
+      - path: globalMove01/controls01
+        weight: 1
+      - path: globalMove01/controls01/anim_l_elbow01
+        weight: 1
+      - path: globalMove01/controls01/anim_l_foot01
+        weight: 1
+      - path: globalMove01/controls01/anim_l_hand01
+        weight: 1
+      - path: globalMove01/controls01/anim_l_knee01
+        weight: 1
+      - path: globalMove01/controls01/anim_pelvis01
+        weight: 1
+      - path: globalMove01/controls01/anim_pelvis01/anim_chest01
+        weight: 1
+      - path: globalMove01/controls01/anim_pelvis01/anim_chest01/anim_head01
+        weight: 1
+      - path: globalMove01/controls01/anim_r_elbow01
+        weight: 1
+      - path: globalMove01/controls01/anim_r_foot01
+        weight: 1
+      - path: globalMove01/controls01/anim_r_hand01
+        weight: 1
+      - path: globalMove01/controls01/anim_r_knee01
+        weight: 1
+      - path: globalMove01/iks01
+        weight: 1
+      - path: globalMove01/iks01/rp_l_foot01
+        weight: 1
+      - path: globalMove01/iks01/rp_l_hand01
+        weight: 1
+      - path: globalMove01/iks01/rp_r_foot01
+        weight: 1
+      - path: globalMove01/iks01/rp_r_hand01
+        weight: 1
+      - path: globalMove01/joints01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_head01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_head01/be_headEnd01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_l_arm01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_l_arm01/bn_l_elbow01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_l_arm01/bn_l_elbow01/bn_l_hand01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_l_arm01/bn_l_elbow01/bn_l_hand01/be_l_toeEnd01
+          1
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_r_arm01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_r_arm01/bn_r_elbow01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_r_arm01/bn_r_elbow01/bn_r_hand01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_chest01/bn_r_arm01/bn_r_elbow01/bn_r_hand01/be_r_toeEnd01
+          1
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_l_thigh01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_l_thigh01/bn_l_knee01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_l_thigh01/bn_l_knee01/bn_l_ankle01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_l_thigh01/bn_l_knee01/bn_l_ankle01/be_l_toeEnd01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_r_thigh01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_r_thigh01/bn_r_knee01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_r_thigh01/bn_r_knee01/bn_r_ankle01
+        weight: 1
+      - path: globalMove01/joints01/bn_pelvis01/bn_r_thigh01/bn_r_knee01/bn_r_ankle01/be_r_toeEnd01
+        weight: 1
+      - path: model01
+        weight: 1
+      - path: model01/polySurface9
+        weight: 1
+      - path: model01/polySurface10
+        weight: 1
+      - path: model01/polySurface11
+        weight: 1
+      - path: model01/polySurface12
+        weight: 1
+      - path: model01/polySurface13
+        weight: 1
+      - path: model01/polySurface14
+        weight: 1
+      - path: model01/polySurface15
+        weight: 1
+      - path: model01/polySurface16
+        weight: 1
+      - path: model01/polySurface17
+        weight: 1
+      - path: model01/polySurface20
+        weight: 1
+      - path: model01/polySurface21
+        weight: 1
+      - path: model01/polySurface22
+        weight: 1
+      - path: model01/polySurface23
+        weight: 1
+      - path: model01/polySurface25
+        weight: 1
+      - path: model01/polySurface26
+        weight: 1
+      - path: model01/polySurface27
+        weight: 1
+      - path: model01/polySurface28
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.8
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

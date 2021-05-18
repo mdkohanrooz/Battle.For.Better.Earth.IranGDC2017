@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: b366bbf2c349ec349bd704316019461e
+timeCreated: 1489074330
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: anim_COG01
+    100002: anim_head01
+    100004: anim_l_hand01
+    100006: anim_r_hand01
+    100008: anim_upper_door01
+    100010: controls01
+    100012: globalMove01
+    100014: polySurface30
+    100016: polySurface36
+    100018: polySurface40
+    100020: polySurface41
+    100022: polySurface42
+    100024: polySurface43
+    100026: //RootNode
+    400000: anim_COG01
+    400002: anim_head01
+    400004: anim_l_hand01
+    400006: anim_r_hand01
+    400008: anim_upper_door01
+    400010: controls01
+    400012: globalMove01
+    400014: polySurface30
+    400016: polySurface36
+    400018: polySurface40
+    400020: polySurface41
+    400022: polySurface42
+    400024: polySurface43
+    400026: //RootNode
+    2300000: polySurface30
+    2300002: polySurface36
+    2300004: polySurface40
+    2300006: polySurface41
+    2300008: polySurface42
+    2300010: polySurface43
+    3300000: polySurface30
+    3300002: polySurface36
+    3300004: polySurface40
+    3300006: polySurface41
+    3300008: polySurface42
+    3300010: polySurface43
+    4300000: polySurface43
+    4300002: polySurface30
+    4300004: polySurface42
+    4300006: polySurface36
+    4300008: polySurface40
+    4300010: polySurface41
+    7400000: Tincan_Run
+    7400002: Tincan_Death
+    7400004: Tincan_Collect
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 1
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Tincan_Run
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: globalMove01
+        weight: 1
+      - path: globalMove01/controls01
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_head01
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_head01/anim_l_hand01
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_head01/anim_l_hand01/polySurface42
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_head01/anim_r_hand01
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_head01/anim_r_hand01/polySurface36
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_head01/polySurface30
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_head01/polySurface43
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_upper_door01
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_upper_door01/polySurface41
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/polySurface40
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Tincan_Death
+      takeName: Take 001
+      firstFrame: 41
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: globalMove01
+        weight: 1
+      - path: globalMove01/controls01
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_head01
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_head01/anim_l_hand01
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_head01/anim_l_hand01/polySurface42
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_head01/anim_r_hand01
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_head01/anim_r_hand01/polySurface36
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_head01/polySurface30
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_head01/polySurface43
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_upper_door01
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_upper_door01/polySurface41
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/polySurface40
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Tincan_Collect
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: globalMove01
+        weight: 1
+      - path: globalMove01/controls01
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_head01
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_head01/anim_l_hand01
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_head01/anim_l_hand01/polySurface42
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_head01/anim_r_hand01
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_head01/anim_r_hand01/polySurface36
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_head01/polySurface30
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_head01/polySurface43
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_upper_door01
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/anim_upper_door01/polySurface41
+        weight: 1
+      - path: globalMove01/controls01/anim_COG01/polySurface40
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.7
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
