@@ -10,7 +10,7 @@ Tools used in this project:
  
  
  Creators:
-  - Mohammad Kohranrooz (Game engineering and programmering)
+  - Mohammad Kohranrooz (Game engineering and programming)
   - Mojtaba Shokri (Rigging and Animation)
   - Arvin Khojir (Modeling and Texturing)
   - Armin Khojir (UI and Character designer)
